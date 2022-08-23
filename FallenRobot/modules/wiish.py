@@ -20,7 +20,7 @@ WISH_STRINGS = [
                ]
 
 
-@FallenRobot.on_message(filters.command(["rakshabandhan", "rakhi"]))
+@FallenRobot.on_message(filters.command(["feelings", "SadShayari"]))
 async def lel(bot, message):
     ran = random.choice(WISH_STRINGS)
     await bot.send_chat_action(message.chat.id, "Typing")
