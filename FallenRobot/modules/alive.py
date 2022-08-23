@@ -12,7 +12,7 @@ from platform import python_version as pyver
 from FallenRobot import BOT_USERNAME, OWNER_USERNAME, SUPPORT_CHAT, pbot
 
 PHOTO = [
-    "https://telegra.ph/file/2de4a73cf3069124e48a8.jpg",
+    "https://telegra.ph/file/f9ecc4d91de7f171483c7.jpg",
     "https://telegra.ph/file/0754888f74366d4bd9fbd.mp4",
     "https://telegra.ph/file/0754888f74366d4bd9fbd.mp4",
     "https://telegra.ph/file/c323263a1746930124792.mp4",
@@ -52,7 +52,7 @@ async def restart(client, m: Message):
     await asyncio.sleep(2.5)
     await m.reply_video(
         video = random.choice(PHOTO),
-        caption=f"""**ʜᴇʏ, ɪ ᴀᴍ ꜱʜɪᴋʜᴀ ʀᴏʙᴏᴛ**
+        caption=f"""**ʜᴇʏ, ɪ ᴀᴍ ᴳᵃᵇᵇᵃʳメ ˹ᴀɴꜱʜᴜ˼➳『🇮🇳』**
    ━━━━━━━━━━━━━━━━━━━
   » **ᴍʏ ᴏᴡɴᴇʀ :** [𝐒𝐓𝐃](https://t.me/{OWNER_USERNAME})
   
