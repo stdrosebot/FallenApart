@@ -17,14 +17,14 @@ from telegram.ext import Filters
 
 from FallenRobot import pbot as bot
 
-DEV = "https://telegra.ph/file/2de4a73cf3069124e48a8.jpg"
+DEV = "https://telegra.ph/file/f9ecc4d91de7f171483c7.jpg"
 
 
 @bot.on_message(filters.command(["noob", "owner", "chutiya", "gandu", "bsdk", "king", "madarchod", "std", "lund"]))
 async def repo(client, message):
     await message.reply_animation(
         animation=ABISHNOI,  # don't change
-        caption=f"""**ʜᴇʏ {message.from_user.mention()},\n\nɪ ᴀᴍ [ꜱʜɪᴋʜᴀ ʀᴏʙᴏᴛ](https://t.me/Shikha_Robot)**
+        caption=f"""**ʜᴇʏ {message.from_user.mention()},\n\nɪ ᴀᴍ [ᴳᵃᵇᵇᵃʳメ ˹ᴀɴꜱʜᴜ˼➳『🇮🇳』](https://t.me/AnshuRobot)**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
