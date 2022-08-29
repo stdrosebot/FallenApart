@@ -76,7 +76,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴇʏ `{}`,\n \nᴛʜɪs ɪs {}[!](https://telegra.ph/file/f8d3cf0bb07b22cf8309f.jpg)\n\n*ᴛʜɪs ɪs ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴀɴᴅ ʟᴀɢ ғʀᴇᴇ ᴍᴜsɪᴄ ʙᴏᴛ ᴏꜰ ᴛᴇʟᴇɢʀᴀᴍ.\nᴛʜɪs ʙᴏᴛ ʜᴀᴠᴇ ᴀᴡᴇsᴏᴍᴇ ꜰᴇᴀᴛᴜʀᴇs ᴀɴᴅ ɴᴏ ᴏɴᴇ ᴄᴀɴ ʙᴇᴀᴛ ɪᴛ ɪɴ ɢᴇᴛᴛɪɴɢ\nɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ɪᴛs ᴄᴏᴍᴍᴀɴᴅs*\n\n*ᴄʟɪᴄᴋ ᴏɴ ᴄᴏᴍᴍᴀɴᴅs ʙᴜᴛᴛᴏɴ ᴏʀ ʜɪᴛ*​ » /help\n\n*ᴘʀᴇss* » /mstart *ғᴏʀ sᴛᴀʀᴛɪɴɢ ᴍᴜsɪᴄ ʙᴏᴛ.*
+ʜᴇʏ `{}`,\n \nᴛʜɪs ɪs {}[!](https://telegra.ph/file/152a82a8719fda9ef7d32.jpg)\n\n*ᴛʜɪs ɪs ᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴀɴᴅ ʟᴀɢ ғʀᴇᴇ ᴍᴜsɪᴄ ʙᴏᴛ ᴏꜰ ᴛᴇʟᴇɢʀᴀᴍ.\nᴛʜɪs ʙᴏᴛ ʜᴀᴠᴇ ᴀᴡᴇsᴏᴍᴇ ꜰᴇᴀᴛᴜʀᴇs ᴀɴᴅ ɴᴏ ᴏɴᴇ ᴄᴀɴ ʙᴇᴀᴛ ɪᴛ ɪɴ ɢᴇᴛᴛɪɴɢ\nɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ɪᴛs ᴄᴏᴍᴍᴀɴᴅs*\n\n*ᴄʟɪᴄᴋ ᴏɴ ᴄᴏᴍᴍᴀɴᴅs ʙᴜᴛᴛᴏɴ ᴏʀ ʜɪᴛ*​ » /help\n\n*ᴘʀᴇss* » /mstart *ғᴏʀ sᴛᴀʀᴛɪɴɢ ᴍᴜsɪᴄ ʙᴏᴛ.*
 
 """
 
@@ -100,10 +100,10 @@ buttons = [
     ],
 ]
 
-FallenRobot_IMG = "https://telegra.ph/file/f8d3cf0bb07b22cf8309f.jpg"
+FallenRobot_IMG = "https://telegra.ph/file/152a82a8719fda9ef7d32.jpg"
 
 HELP_STRINGS = f"""
-[ᴳᵃᵇᵇᵃʳメ ˹ᴀɴꜱʜᴜ˼➳『🇮🇳』](t.me/AnshuRobot) *ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs*\n*» ᴄʜᴇᴄᴋᴏᴜᴛ ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs*\n*» ᴀʟʟ ᴏꜰ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ / ᴏʀ !*\n*» ɪꜰ ʏᴏᴜ ɢᴏᴛ ᴀɴʏ ɪssᴜᴇ ᴏʀ ʙᴜɢ ɪɴ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴘʟᴇᴀsᴇ ʀᴇᴘᴏʀᴛ ɪᴛ ᴛᴏ @{SUPPORT_CHAT}*\n\n*ㅤ   ㅤ» ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ «*\n\n➲ /start : *ꜱᴛᴀʀᴛꜱ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ɪᴛ​.*\n➲ /donate : *sᴜᴘᴘᴏʀᴛ ᴍᴇ ʙʏ ᴅᴏɴᴀᴛɪɴɢ ꜰᴏʀ ᴍʏ ʜᴀʀᴅᴡᴏʀᴋ​.*\n➲ /help  : *ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ꜱᴇᴄᴛɪᴏɴ.*\n*  ‣ ɪɴ ᴘᴍ : ᴡɪʟʟ ꜱᴇɴᴅ ʏᴏᴜ ʜᴇʟᴘ​ ꜰᴏʀ ᴀʟʟ ꜱᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇꜱ.*\n*  ‣ ɪɴ ɢʀᴏᴜᴘ : ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ʜᴇʟᴘ​ ᴍᴏᴅᴜʟᴇꜱ.*\n ➲ /mhelp : *ғᴏʀ ᴍᴜsɪᴄ ʙᴏᴛ ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs*"""
+[ᴮᵉᵗᵘメ ˹ʟɪꜰᴇʟɪɴᴇ˼➳『🇮🇳』](t.me/Lifeline_ROBOT) *ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs*\n*» ᴄʜᴇᴄᴋᴏᴜᴛ ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs*\n*» ᴀʟʟ ᴏꜰ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ / ᴏʀ !*\n*» ɪꜰ ʏᴏᴜ ɢᴏᴛ ᴀɴʏ ɪssᴜᴇ ᴏʀ ʙᴜɢ ɪɴ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴘʟᴇᴀsᴇ ʀᴇᴘᴏʀᴛ ɪᴛ ᴛᴏ @{SUPPORT_CHAT}*\n\n*ㅤ   ㅤ» ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ «*\n\n➲ /start : *ꜱᴛᴀʀᴛꜱ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ɪᴛ​.*\n➲ /donate : *sᴜᴘᴘᴏʀᴛ ᴍᴇ ʙʏ ᴅᴏɴᴀᴛɪɴɢ ꜰᴏʀ ᴍʏ ʜᴀʀᴅᴡᴏʀᴋ​.*\n➲ /help  : *ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ꜱᴇᴄᴛɪᴏɴ.*\n*  ‣ ɪɴ ᴘᴍ : ᴡɪʟʟ ꜱᴇɴᴅ ʏᴏᴜ ʜᴇʟᴘ​ ꜰᴏʀ ᴀʟʟ ꜱᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇꜱ.*\n*  ‣ ɪɴ ɢʀᴏᴜᴘ : ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ʜᴇʟᴘ​ ᴍᴏᴅᴜʟᴇꜱ.*\n ➲ /mhelp : *ғᴏʀ ᴍᴜsɪᴄ ʙᴏᴛ ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs*"""
 
 DONATE_STRING = """[𝐒𝐓𝐃](https://t.me/STD_KING)"""
 
@@ -407,7 +407,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                             text="❣️ sᴜᴩᴩᴏʀᴛ ❣️", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="🌷 ᴜᴩᴅᴀᴛᴇs 🌷", url=f"https://t.me/gabbarubhutu"
+                            text="🌷 ᴜᴩᴅᴀᴛᴇs 🌷", url=f"https://t.me/DevilsServerMF"
                         ),
                     ],
                     [
@@ -439,7 +439,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text="""*ʜᴇʏ,*\n\n*ᴛʜɪs ɪs ᴳᵃᵇᵇᵃʳメ ˹ᴀɴꜱʜᴜ˼➳『🇮🇳』*\n\n*ʜᴇʀᴇ ɪs ᴍʏ ꜱᴛᴅ ᴄᴏᴅᴇ :* [ɴᴇᴛᴡᴏʀᴋ](https://t.me/Team_STD_Network)\n\n*ᴍʏ ꜱᴛᴅ ᴄᴏᴅᴇ ɪs ɪɴ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴀɴᴅ ɴᴏᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ʏᴇᴛ*\n*sᴏ ɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ʀᴇǫᴜᴇsᴛ ᴀɴʏ ғᴇᴀᴛᴜʀᴇ, ᴩʟᴇᴀsᴇ ʟᴇᴛ ᴜs ᴋɴᴏᴡ ᴀᴛ* [𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐂𝐡𝐚𝐭](https://t.me/STD_FRIENDS_CLUB) *ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴩᴇʀ :* [𝐒𝐓𝐃](https://t.me/STD_KING)""",
+            text="""*ʜᴇʏ,*\n\n*ᴛʜɪs ɪs ᴮᵉᵗᵘメ ˹ʟɪꜰᴇʟɪɴᴇ˼➳『🇮🇳』*\n\n*ʜᴇʀᴇ ɪs ᴍʏ ꜱᴛᴅ ᴄᴏᴅᴇ :* [ɴᴇᴛᴡᴏʀᴋ](https://t.me/Team_STD_Network)\n\n*ᴍʏ ꜱᴛᴅ ᴄᴏᴅᴇ ɪs ɪɴ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴀɴᴅ ɴᴏᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ʏᴇᴛ*\n*sᴏ ɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ʀᴇǫᴜᴇsᴛ ᴀɴʏ ғᴇᴀᴛᴜʀᴇ, ᴩʟᴇᴀsᴇ ʟᴇᴛ ᴜs ᴋɴᴏᴡ ᴀᴛ* [𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐂𝐡𝐚𝐭](https://t.me/STD_FRIENDS_CLUB) *ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴩᴇʀ :* [𝐒𝐓𝐃](https://t.me/STD_KING)""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -741,8 +741,8 @@ def main():
         try:
             dispatcher.bot.send_video(
                 f"@{SUPPORT_CHAT}",
-                "https://telegra.ph/file/f9ecc4d91de7f171483c7.jpg",
-                caption="ᴳᵃᵇᵇᵃʳメ ˹ᴀɴꜱʜᴜ˼➳『🇮🇳』 ɪs ᴀʟɪᴠᴇ !\n\nᴍᴀᴅᴇ ᴡɪᴛʜ 💘 ʙʏ ꜱᴛᴅ 🥀",
+                "https://telegra.ph/file/152a82a8719fda9ef7d32.jpg",
+                caption="ᴮᵉᵗᵘメ ˹ʟɪꜰᴇʟɪɴᴇ˼➳『🇮🇳』 ɪs ᴀʟɪᴠᴇ !\n\nᴍᴀᴅᴇ ᴡɪᴛʜ 💘 ʙʏ ꜱᴛᴅ 🥀",
             )
         except Unauthorized:
             LOGGER.warning(
