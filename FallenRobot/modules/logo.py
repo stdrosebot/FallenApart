@@ -255,10 +255,10 @@ async def lego(event):
     quew = event.pattern_match.group(1)
     if event.sender_id != OWNER_ID and not quew:
         await event.reply(
-            "`ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ᴄʀᴇᴀᴛᴇ ʟᴏɢᴏ ʙᴀʙʏ​ !`\n`Example /logo <Gₐ𝚋𝚋ᵣᵤ ₐ𝚗𝘴𝓱ᵤ>`"
+            "`ɢɪᴠᴇ sᴏᴍᴇ ᴛᴇxᴛ ᴛᴏ ᴄʀᴇᴀᴛᴇ ʟᴏɢᴏ ʙᴀʙʏ​ !`\n`Example /logo <Lifeline>`"
         )
         return
-    pesan = await event.reply("**ᴳᵃᵇᵇᵃʳメ ˹ᴀɴꜱʜᴜ˼➳『🇮🇳』 ᴄʀᴇᴀᴛɪɴɢ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛᴇᴅ ʟᴏɢᴏ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ᴀ sᴇᴄ​...**")
+    pesan = await event.reply("**ᴮᵉᵗᵘメ ˹ʟɪꜰᴇʟɪɴᴇ˼➳『🇮🇳』 ᴄʀᴇᴀᴛɪɴɢ ʏᴏᴜʀ ʀᴇǫᴜᴇsᴛᴇᴅ ʟᴏɢᴏ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ᴀ sᴇᴄ​...**")
     try:
         text = event.pattern_match.group(1)
         randc = random.choice(LOGO_LINKS)
@@ -288,7 +288,7 @@ async def lego(event):
         fname = "fallen.png"
         img.save(fname, "png")
         await telethn.send_file(
-            event.chat_id, file=fname, caption=f"☟︎︎︎ ʟᴏɢᴏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ☟︎︎︎\n   ☞︎︎︎  [ᴳᵃᵇᵇᵃʳメ ˹ᴀɴꜱʜᴜ˼➳『🇮🇳』](t.me/AnshuRobot)  ☜︎︎︎\n\nʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ: [{event.sender.first_name}](tg://user?id={event.sender.id})"
+            event.chat_id, file=fname, caption=f"☟︎︎︎ ʟᴏɢᴏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ☟︎︎︎\n   ☞︎︎︎  [ᴮᵉᵗᵘメ ˹ʟɪꜰᴇʟɪɴᴇ˼➳『🇮🇳』](t.me/Lifeline_ROBOT)  ☜︎︎︎\n\nʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ: [{event.sender.first_name}](tg://user?id={event.sender.id})"
         )
         await pesan.delete()
         if os.path.exists(fname):
